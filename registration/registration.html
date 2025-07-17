@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./registration-css.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="text"></h1>
+        <div>
+            <h1>Student Registration Form</h1>
+        </div>
+        <div class="form">
+            <form action="">
+                <table>
+                    <tr>
+                        <td>First Name :</td>
+                        <td><input type="text" name="" id=""></td>
+                    </tr>
+                    <tr>
+                        <td>Last Name :</td>
+                        <td><input type="text" name="" id=""></td>
+                    </tr>
+                    <tr>
+                        <td>Date Of Birth :</td>
+                        <td><input type="number" name="day" min="1" max="31" placeholder="day">
+                            <input type="number" name="month" min="1" max="12" placeholder="month">
+                            <input type="number" name="year" min="1990" max="2025" placeholder="year">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Email : </td>
+                        <td><input type="email"></td>
+                    </tr>
+                    <tr>
+                        <td>Mobile Number :</td>
+                        <td><input type="text" maxlength="10"></td>
+                    </tr>
+                    <tr>
+                        <td>Gender :</td>
+                        <td><input type="radio" name="gender" id="male" value="male">
+                            <label for="male"> Male</label>
+                            <input type="radio" name="gender" id="female" value="female">
+                            <label for="female"> Female</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Address : </td>
+                        <td><textarea name="address" id=""></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Country : </td>
+                        <td><select name="" id="">
+                                <option value="">India</option>
+                                <option value="">USA</option>
+                                <option value="">Australia</option>
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <td>Hobbies :</td>
+                        <td><input type="checkbox" name="" id="">
+                            <label for=""> Drawing</label>
+                            <input type="checkbox" name="" id="">
+                            <label for=""> Sketching</label>
+                            <input type="checkbox" name="" id="">
+                            <label for=""> Cricket</label><br>
+                            <input type="checkbox" name="" id="Football">
+                            <label for=""> Football</label>
+                            <input type="checkbox" name="" id="">
+                            <label for=""> Other</label>
+                            <input type="text" name="" id="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> <button type="button"  onclick="handleclick()">Submit</button></td>
+                        <td> <button type="button">Reset</button></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <button ><a href="../index.html" style="text-decoration: none; color: black;">Back To the Main page</a></button>
+    </div>
+</body>
+<script src="../script.js"></script>
+</html>
